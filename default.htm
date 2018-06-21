@@ -35,7 +35,8 @@
   <!-- Header -->
   <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
     <!-- <img class="w3-image" src="https://images.unsplash.com/photo-1445052617869-096db75b4820?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=" alt="Architecture" width="1500" height="800"> -->
-    <img class="w3-image" src="https://source.unsplash.com/BP1Q3Ib_Pyo/1500x1000" alt="Hero Garden" width="1500" height="800">
+    <img class="w3-image" src="img/tyler-shaw-55375.jpg" alt="Hero Garden" width="1500" height="800">
+    <!-- Photo by <a href="https://unsplash.com/photos/BP1Q3Ib_Pyo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tyler Shaw</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
     <div class="w3-display-middle w3-margin-top w3-center">
       <h1 class="w3-xxlarge w3-text-white">
       <span class="w3-text-white">Grow<span class="w3-hide-small"> Food</span>. </span>
@@ -61,14 +62,16 @@
       <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Collaborate in UAIZs</h3>
       <div class="w3-row-padding">
         <div class="w3-col l3 m6 l6 w3-margin-bottom" id="landowners">
-          <img src="https://source.unsplash.com/IS6RwpuEJpY/700x466" alt="Landowners" style="width:80%; margin-left:10%">
+          <img src="img/austin-ban-14522.jpg" alt="Landowners" style="width:80%; margin-left:10%">
+          <!-- Photo by <a href="https://unsplash.com/photos/IS6RwpuEJpY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Ban</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
           <h3>Landowners</h3>
           <p>Select your jurisdiction to find out how to save on your property taxes and partner with a project creator.</p>
           <p><button onclick="document.getElementById('sj_landowners').style.display='block'" class="w3-button w3-light-grey w3-block">San Jose</button></p>
           <p><button onclick="document.getElementById('scc_landowners').style.display='block'" class="w3-button w3-light-grey w3-block">Unincorporated Areas of Santa Clara County</button></p>
         </div>
         <div class="w3-col l3 m6 l6 w3-margin-bottom" id="creators">
-          <img src="https://source.unsplash.com/vGQ49l9I4EE/700x466" alt="Project Creators" style="width:80%; margin-left:10%">
+          <img src="img/maja-petric-8287.jpg" alt="Project Creators" style="width:80%; margin-left:10%">
+          <!-- Photo by <a href="https://unsplash.com/photos/vGQ49l9I4EE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maja Petric</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
           <h3>Project Creators</h3>
           <p>Select your jurisdiction to find out how to find a property to start your urban agriculture project.</p>
           <p><button onclick="document.getElementById('sj_create').style.display='block'" class="w3-button w3-light-grey w3-block">San Jose</button></p>
@@ -82,41 +85,6 @@
       </div>
     </div>
 
-    <!-- Contact Section -->
-    <div class="w3-container w3-padding-32" id="contact">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-      <p>We love to hear your ideas and want to help you bring them to fruition.</p>
-      <form role="form" id="contactForm" data-toggle="validator" class="shake">
-          <div class="row">
-              <div class="form-group col-lg-4">
-                  <label for="name" class="h4">Name</label>
-                  <input type="text" class="w3-input form-control" id="name" placeholder="Enter name" required data-error="Enter name">
-                  <div class="help-block with-errors"></div>
-              </div>
-              <div class="form-group col-lg-4">
-                  <label for="email" class="h4">Email</label>
-                  <input type="email" class="w3-input form-control" id="email" placeholder="Enter email" required>
-                  <div class="help-block with-errors"></div>
-              </div>
-              <div class="form-group col-lg-4">
-                  <label for="phone" class="h4">Phone Number</label>
-                  <input type="tel" class="w3-input form-control" id="phone" placeholder="Enter phone number" required>
-                  <div class="help-block with-errors"></div>
-              </div>
-          </div>
-          <div class="form-group">
-              <label for="message" class="h4 ">Message</label>
-              <textarea id="message" class="w3-input form-control" rows="6" placeholder="Enter your message" required></textarea>
-              <div class="help-block with-errors"></div>
-          </div>
-          <button type="submit" id="form-submit" class="btn btn-default pull-right ">Submit</button>
-          <div id="msgSubmit" class="text-center hidden"></div>
-          <div class="clearfix"></div>
-      </form>
-      <p>For more information, contact La Mesa Verde at
-      <span class="spamspan"><span class="u">urbanagriculture</span>[at]<span class="d">sacredheartcs [dot] org</span></span>
-      or <span class="spam_lmvnum">&#52;&#48;&#56;&#46;&#57;&#49;&#54;&#46;&#53;&#48;&#54;&#57;</span>. <p>
-    </div>
 
     <!-- End page content -->
   </div>
@@ -154,10 +122,20 @@
         <h3>2. Connect with a Project Creator</h3>
       </div>
       <div class="w3-container">
+      <!-- OLD
         <h5>Please fill out <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSdx5zJnUByuJgNnrGiWA8-iAQlbp1asx7FMpG_ooQSsfhn6kw/viewform?c=0&w=1" target="_blank">this form</a></b> to help us connect you with a Project Creator. If you, the land owner, are interested in starting your <em>own</em> urban agriculture project, which could include a large family garden, you can skip straight to Step 4.<br>
         <br>You can also contact La Mesa Verde at
         <span class="spamspan"><span class="u">urbanagriculture</span>[at]<span class="d">sacredheartcs [dot] org</span></span>
          to inquire directly.<br>
+       OLD -->
+       <h5>
+         <!--- NEW -->
+         Contact local urban agriculture organizations to inquire whether they are interested in starting a project on your land.
+         Property owners are allowed to create their own agricultural project, as long as the entire property is used for urban agriculture.  If you would like support in connecting with project creators, please contact the UC Cooperative Extension
+         Urban Agriculture program at 408.282.3113 or email Jessica Schweiger at
+         <span class="spamspan"><span class="u">jschweiger</span>[at]<span class="d">ucanr [dot] edu</span></span>
+         <!--- NEW -->
+
         </h5>
 
       </div>
@@ -171,10 +149,20 @@
         <h3>4. Submit your application</h3>
       </div>
       <div class="w3-container">
-        <h5>Submit an <a target="_blank" href="docs/SJ_UAIZ-Contract-Application.pdf"><b>application</a></b> to the City of San Jose for an Urban Agriculture Incentive Zone contract. Applications are due by August 1, 2017.<br>
+        <!-- OLD
+        <h5>
+        Submit an <a target="_blank" href="docs/SJ_UAIZ-Contract-Application.pdf"><b>application</a></b> to the City of San Jose for an Urban Agriculture Incentive Zone contract. Applications are due by August 1, 2017.<br>
         For questions regarding the application, please contact Art Henriques,
         <span class="spam_artnum">&#52;&#48;&#56;&#45;&#53;&#51;&#53;&#45;&#54;&#56;&#54;&#50;</span>
         <span class="spamspan"><span class="u">arthur.henriques</span>[at]<span class="d">sanjoseca [dot] gov</span></span>.
+        OLD-->
+        <!-- NEW-->
+        Submit an <a target="_blank" href="docs/SJ_UAIZ-Contract-Application.pdf"><b>application</a> to the City of San Jose for an Urban Agriculture Incentive Zone contract.
+        Applications are due by August 1 of each year.
+        For questions regarding the application, please contact Lea Simvoulakis, Supervising Planner at the City of
+        San José at 408.535.7837 or
+        <span class="spamspan"><span class="u">lea.simvoulakis</span>[at]<span class="d">sanjoseca [dot] gov</span></span>.
+        <!-- NEW-->
         </h5>
       </div>
     </div>
@@ -191,13 +179,27 @@
         <h5>Select a property you'd like to begin your project on.</h5>
       </div>
       <div class="w3-container w3-black">
-        <h3>2. Submit a request to our directory</h3>
+        <h3>2. Find a potential UAIZ site</h3>
       </div>
       <div class="w3-container">
+        <!--- OLD
         <h5>Please fill out <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSdx5zJnUByuJgNnrGiWA8-iAQlbp1asx7FMpG_ooQSsfhn6kw/viewform?c=0&w=1" target="_blank">this form</a></b> to help us connect you with a Land Owner.<br>
-        <h5>You can also contact La Mesa Verde at
+        <h5>
+
+        You can also contact La Mesa Verde at
           <span class="spamspan"><span class="u">urbanagriculture</span>[at]<span class="d">sacredheartcs [dot] org</span></span>
-          to inquire directly.</h5>
+          to inquire directly.
+        OLD -->
+        <!--- NEW--->
+        <h5>
+        Check out <a href="http://www.arcgis.com/home/webmap/viewer.html?webmap=683e6f1beded4d2aa7bcb3e8ea732638" target="_blank">this map</a>
+        to see parcels that are potentially eligible for the UAIZ incentive.
+
+        To find out who owns a property: Ownership information is currently available either from microfiche or a public terminal
+        at the Assessor's Office located at 70 West Hedding Street, San Jose, East Wing 5th Floor, Monday through Friday between
+        the hours of 8:00 a.m. through 5:00 p.m.
+        <!--- NEW--->
+      </h5>
       </div>
       <div class="w3-container w3-black">
         <h3>3. Form a lease with a Property Owner</h3>
@@ -215,6 +217,14 @@
           Art Henriques,
           <span class="spam_artnum">&#52;&#48;&#56;&#45;&#53;&#51;&#53;&#45;&#54;&#56;&#54;&#50;</span>
           <span class="spamspan"><span class="u">arthur.henriques</span>[at]<span class="d">sanjoseca [dot] gov</span></span>.
+
+           <!-- NEW
+        Submit an <a target="_blank" href="docs/SJ_UAIZ-Contract-Application.pdf"><b>application</a> to the City of San Jose for an Urban Agriculture Incentive Zone contract.
+        Applications are due by August 1 of each year.
+				For questions regarding the application, please contact Lea Simvoulakis, Supervising Planner at the City of
+				San José at 408.535.7837 or lea.simvoulakis@sanjoseca.gov.
+-->
+
         </h5>
       </div>
     </div>
@@ -253,12 +263,21 @@
         <h3>2. Connect with a Project Creator</h3>
       </div>
       <div class="w3-container">
+<!-- OLD
         <h5>Please fill out <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSdx5zJnUByuJgNnrGiWA8-iAQlbp1asx7FMpG_ooQSsfhn6kw/viewform?c=0&w=1" target="_blank">this form</a></b> to help us connect you with a Project Creator. If you, the land owner, are interested in starting your <em>own</em> urban agriculture project, which could include a large family garden, you can skip straight to Step 4.<br>
         <br>You can also contact La Mesa Verde at
         <span class="spamspan"><span class="u">urbanagriculture</span>[at]<span class="d">sacredheartcs [dot] org</span></span>
         to inquire directly.<br>
-        </h5>
+OLD-->
 
+        <!-- NEW-->
+        <h5>
+         Contact local urban agriculture organizations to inquire whether they are interested in starting a project on your land.
+         Property owners are allowed to create their own agricultural project, as long as the entire property is used for urban agriculture.  If you would like support in connecting with project creators, please contact the UC Cooperative Extension
+         Urban Agriculture program at 408.282.3113 or email Jessica Schweiger at
+        <span class="spamspan"><span class="u">jschweiger</span>[at]<span class="d">ucanr [dot] edu</span></span>
+         <!-- NEW-->
+        </h5>
       </div>
       <div class="w3-container w3-black">
         <h3>3. Form a lease with a Project Creator</h3>
@@ -275,6 +294,12 @@
         You can also visit the <a href="https://www.sccgov.org/sites/ag/Pages/SCC-Urban-Agriculture-Incentive-Zone.aspx" target="_blank">Santa Clara County webpage</a> for more information.
         <br>
         For questions about property valuation, visit the Santa Clara County Assessor’s <a href="https://www.sccassessor.org/index.php/tax-savings/tax-reductions/urban-agriculture-incentive-zones-ab-551">website</a>, or call the University of California Cooperative Extension at <span class="spam_ucnum">&#40;&#52;&#48;&#56;&#41; &#50;&#56;&#50;&#45;&#51;&#49;&#49;&#51;</span>.
+        <!---NEW
+        Submit an <a target="_blank" href="https://www.sccgov.org/sites/ag/Documents/UAIZ%20Application%20Santa%20Clara%20County.pdf"><b>application</b></a> to the County of Santa Clara for an Urban Agriculture Incentive Zone contract. Applications are due by November 1 of each year.
+For questions about property valuation, visit the Santa Clara County Assessor’s <a target="_blank" href="https://www.sccassessor.org/index.php/tax-savings/tax-reductions/urban-agriculture-incentive-zones-ab-551">website</a>.  For questions about your property or the application, email <a href="mailto:SCC.Agriculture@cep.sccgov.org">SCC.Agriculture@cep.sccgov.org</a> or call the University of California Cooperative Extension at (408) 282-3113.
+You can also visit the Santa Clara County <a target="_blank" href="https://www.sccgov.org/sites/ag/Pages/SCC-Urban-Agriculture-Incentive-Zone.aspx">webpage</a> for more information.
+--->
+
         </h5>
       </div>
     </div>
@@ -291,13 +316,26 @@
         <h5>Select a property you'd like to begin your project on.</h5>
       </div>
       <div class="w3-container w3-black">
-        <h3>2. Submit a request to our directory</h3>
+        <h3>2. Find a potential UAIZ site</h3>
       </div>
       <div class="w3-container">
-        <h5>Please fill out <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSdx5zJnUByuJgNnrGiWA8-iAQlbp1asx7FMpG_ooQSsfhn6kw/viewform?c=0&w=1" target="_blank">this form</a></b> to help us connect you with a Land Owner.<br>
+<!--- OLD
+        <h5>
+        Please fill out <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSdx5zJnUByuJgNnrGiWA8-iAQlbp1asx7FMpG_ooQSsfhn6kw/viewform?c=0&w=1" target="_blank">this form</a></b> to help us connect you with a Land Owner.<br>
         <h5>You can also contact La Mesa Verde at
           <span class="spamspan"><span class="u">urbanagriculture</span>[at]<span class="d">sacredheartcs [dot] org</span></span>
-          to inquire directly.</h5>
+          to inquire directly.
+       OLD -->
+       <h5>
+        <!--- NEW -->
+        Check out <a href="http://www.arcgis.com/home/webmap/viewer.html?webmap=683e6f1beded4d2aa7bcb3e8ea732638" target="_blank">this map</a>
+        to see parcels that are potentially eligible for the UAIZ incentive.
+
+        To find out who owns a property: Ownership information is currently available either from microfiche or a public terminal
+        at the Assessor's Office located at 70 West Hedding Street, San Jose, East Wing 5th Floor, Monday through Friday between
+        the hours of 8:00 a.m. through 5:00 p.m.
+        <!--- NEW -->
+        </h5>
       </div>
       <div class="w3-container w3-black">
         <h3>3. Form a lease with a Property Owner</h3>
@@ -314,6 +352,14 @@
           <br>
           For questions about property valuation, visit the Santa Clara County Assessor’s <a href="https://www.sccassessor.org/index.php/tax-savings/tax-reductions/urban-agriculture-incentive-zones-ab-551" target="_blank">website</a>, or call the University of California Cooperative Extension at <span class="spam_ucnum">&#40;&#52;&#48;&#56;&#41; &#50;&#56;&#50;&#45;&#51;&#49;&#49;&#51;</span>.<br>
           You can also visit the <a href="https://www.sccgov.org/sites/ag/Pages/SCC-Urban-Agriculture-Incentive-Zone.aspx" target="_blank">Santa Clara County webpage</a> for more information.
+
+                <!---NEW
+        Submit an <a target="_blank" href="https://www.sccgov.org/sites/ag/Documents/UAIZ%20Application%20Santa%20Clara%20County.pdf"><b>application</b></a> to the County of Santa Clara for an Urban Agriculture Incentive Zone contract. Applications are due by November 1 of each year.
+For questions about property valuation, visit the Santa Clara County Assessor’s <a target="_blank" href="https://www.sccassessor.org/index.php/tax-savings/tax-reductions/urban-agriculture-incentive-zones-ab-551">website</a>.  For questions about your property or the application, email <a href="mailto:SCC.Agriculture@cep.sccgov.org">SCC.Agriculture@cep.sccgov.org</a> or call the University of California Cooperative Extension at (408) 282-3113.
+You can also visit the Santa Clara County <a target="_blank" href="https://www.sccgov.org/sites/ag/Pages/SCC-Urban-Agriculture-Incentive-Zone.aspx">webpage</a> for more information.
+--->
+
+
         </h5>
       </div>
     </div>
@@ -324,6 +370,7 @@
   <footer class="w3-center w3-light-grey w3-padding-16">
     <p><a href="https://www.sacredheartcs.org" target="_blank"><img style="width:150px;height:150px;" src="https://sacredheartcs.org/wp-content/themes/sacredheart-foundation/dist/assets/img/logo.svg"></a></p>
     <p>Created by La Mesa Verde at Sacred Heart Community Service, supported by a grant from The Health Trust in San José.</p>
+    <p style="font-size: 12px; color: gray;">Photo credits: <a href="https://unsplash.com/photos/BP1Q3Ib_Pyo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tyler Shaw</a>, <a href="https://unsplash.com/photos/IS6RwpuEJpY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Ban</a>, and <a href="https://unsplash.com/photos/vGQ49l9I4EE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maja Petric</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
   </footer>
 
 </body>
